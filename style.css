@@ -24,15 +24,16 @@ header p {
 }
 header button {
   width: 100px;
-  height: 20px;
+  height: 40px;
   background-color: white;
   border-radius: 5px;
   border: 2px solid #000000;
   margin: 0 25px;
+  transition: 1s;
 }
 header button:hover {
   background-color: #000000;
-  color: rgb(98, 133, 5);
+  color: gold;
 }
 
 nav {
@@ -144,6 +145,7 @@ nav ul li a {
   background-color: rgb(4, 21, 1);
   border: none;
   width: 100%;
+  padding: 10px 0;
 }
 
 #about-us p,
