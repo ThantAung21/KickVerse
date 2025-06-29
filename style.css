@@ -75,38 +75,16 @@ nav ul li a {
   border-radius: 5px;
   padding: 20px 0;
   box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
+
   justify-content: center;
-  align-items: flex-start; /* Align cards to the top */
-  gap: 20px;
-  flex-direction: row; /* Stack cards vertically */
 }
 
 .store-list h3 {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
-  order: -1; /* Move heading to the top of flex container */
 }
-.card {
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 10px;
-  width: 240px;
-  font-family: "Lato", sans-serif;
-  color: #0e0501;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); /* Add subtle shadow for depth */
-  transition: transform 0.2s;
-  margin-bottom: 20px;
-}
-.card:hover {
-  transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-}
+
 .store-list h3 {
   font-family: "Playfair Display SC", serif;
   color: #0c1101;
@@ -131,8 +109,9 @@ nav ul li a {
   font-family: "Lato", sans-serif;
 }
 .card-title {
-  background-color: rgb(0, 255, 242);
+  background-color: rgb(0, 0, 0);
   padding: 10px 0;
+  color: gold;
 }
 .card-text {
   font-style: italic;
