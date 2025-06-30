@@ -1,7 +1,7 @@
 .container {
   width: 150px;
   height: 150px;
-  background-color: #56dfcf;
+  background-color: #c4e1e6;
 
   margin: 20px auto;
 
@@ -17,11 +17,14 @@
   padding: 0;
   background-color: #c4e1e6;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 header {
   text-align: center;
   padding: 50px 0;
-  background-color: #56dfcf;
+  background-color: #c4e1e6;
 }
 header h1 {
   font-family: Dancing Script, cursive;
